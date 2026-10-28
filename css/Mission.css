@@ -1,0 +1,36 @@
+.mission {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 60px 40px;
+}
+
+.mission-card {
+  width: 380px;
+  background: white;
+  border-radius: 25px;
+  padding: 30px;
+  box-shadow: 0 0 12px rgba(249, 168, 37, 0.5);
+}
+
+.mission-card h3 {
+  color: #555;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.mission-card p {
+  font-size: 18px;
+  color: #444;
+}
+
+@media (max-width: 800px) {
+  .mission {
+    padding: 40px 20px;
+  }
+
+  .mission-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,44 @@
+.start {
+  background: url("../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 130px 80px;
+}
+
+.start h1 {
+  font-size: 40px;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+.start p {
+  max-width: 600px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.start ul {
+  margin: 0 0 30px 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.demo-btn {
+  background: #f5ac35;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .start {
+    padding: 60px 20px;
+  }
+
+  .start h1 {
+    font-size: 25px;
+  }
+}

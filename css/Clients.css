@@ -1,0 +1,43 @@
+.clients {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 80px;
+  background: #f7f7f7;
+}
+
+.clients-text {
+  flex: 1;
+}
+
+.clients-text h2 {
+  color: #444;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.clients-text h4 {
+  color: #f9a825;
+  font-size: 20px;
+  margin: 20px 0 10px;
+}
+
+.clients-text p {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.clients-map {
+  flex: 1;
+}
+
+.clients-map img {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .clients {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+}
